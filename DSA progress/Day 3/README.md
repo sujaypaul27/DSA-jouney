@@ -1,0 +1,1 @@
+These were the topics learned during the day 3 of DSA in java progression

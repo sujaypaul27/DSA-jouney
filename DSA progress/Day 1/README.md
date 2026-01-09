@@ -1,0 +1,1 @@
+I have started to learn DSA pattern and today is my day 1 and i learned transversal in an array.
