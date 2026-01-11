@@ -1,0 +1,1 @@
+In the day 4 we learned the pattern of finding frequency of repeatation and also the if the matrics will be uniques when removing a coloum and Two pointer technique.
