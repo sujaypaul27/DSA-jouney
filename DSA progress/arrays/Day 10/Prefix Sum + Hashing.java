@@ -41,7 +41,7 @@ class Main {
             System.out.println(" Not Found ");
         }
         for( int a :set){
-            System.out.println(a);
+            System.out.println(a );
         }
         
     }
