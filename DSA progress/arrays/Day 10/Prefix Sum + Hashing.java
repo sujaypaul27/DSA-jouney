@@ -40,7 +40,7 @@ class Main {
         {
             System.out.println(" Not Found ");
         }
-        for(int a:set){
+        for(int a :set){
             System.out.println(a);
         }
         
