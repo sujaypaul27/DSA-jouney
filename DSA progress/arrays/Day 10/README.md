@@ -13,7 +13,7 @@ Using HashSet with prefix sum to handle negative numbers
 Prefix Sum
 Prefix Sum + Hashing
 
-3) Important Points:
+3) Important Points :
 
 Prefix sum stores cumulative sums to avoid repeated calculations
 prefix[i] represents the sum of elements before index i
