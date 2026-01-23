@@ -34,6 +34,6 @@ class Main{
         }
         System.out.println("Best left and right is : "+bestleft+" , "+ bestright);
         System.out.println("Closest is " + (bestleft+bestright));
-        System.out.println("Count is " + (count));
+        System.out.println("Count is " + (count ));
     }
 }
