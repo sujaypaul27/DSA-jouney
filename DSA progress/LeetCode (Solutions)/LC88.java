@@ -24,7 +24,7 @@ class Solution {
         {
             nums1[k]=nums2[right];
             right--;
-            k--;
+            k-- ;
         }
     
     }
