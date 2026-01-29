@@ -49,13 +49,13 @@ class Solution {
         {
             if(digits[i]<9)
             {
-                digits[i]+=1;
+                digits[i]+=1;// to add  plus for digits at end Till 9
                 return digits;
             }
-            digits[i]=0;
+            digits[i]=0;// this takes for digit number and make arr as 0
         }   
-        int[] arr=new int[n+1];
-        arr[0]=1;
-        return arr;     
+        int[] arr=new int[n+1];// now array length increases
+        arr[0]=1;// since 9 +1 =10 0 is alredy there adding 1 at start index;
+        return arr;     // returning values
     }
 }
