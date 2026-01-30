@@ -1,3 +1,23 @@
-public class LC-169 (Find majority VOTING ALG) {
-    
+class Solution {
+    public int majorityElement(int[] nums) {
+        int count =0;
+        int major=0;
+        for(int num : nums)
+        {
+            if(count==0)
+            {
+                major=num;
+            }
+            if(major==num)
+            {
+                count--;
+            }
+            else
+            {
+                count ++;
+            }
+        }
+        return major
+        
+    }
 }
