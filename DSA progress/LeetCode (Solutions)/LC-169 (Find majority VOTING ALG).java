@@ -17,7 +17,7 @@ class Solution {
                 count ++;
             }
         }
-        return major;
+        return major;//return biggest
         
     }
 }
