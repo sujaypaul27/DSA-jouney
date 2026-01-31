@@ -41,3 +41,6 @@ class Solution {
         
     }
 }
+
+// Time complexit O(1)
+// Space complexity O(1)
