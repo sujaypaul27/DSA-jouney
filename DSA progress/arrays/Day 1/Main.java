@@ -16,6 +16,6 @@ class Main{
             maxfinal=input[i];
         }
     }
-    System.out.println(maxfinal);
+    System.out.println(maxfinal); 
     }
 }
