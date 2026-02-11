@@ -16,7 +16,7 @@ class Main{
         for(int i=0;i<k;i++){
             windowavg+=arr[i];
         }
-        float avg=windowavg/k;
+         maxavg=windowavg;
         for(int i=k;i<n;i++){
             windowavg+=arr[i]-arr[i-k];
             maxavg=Math.max(maxavg,windowavg);
