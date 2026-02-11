@@ -28,4 +28,4 @@ class Main{
         }
         System.out.println("target found at position: "+(answer+1)+"   target found at index: "+(answer));// if we need position and not index use this 
     }
-}
+} 
