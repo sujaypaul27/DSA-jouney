@@ -25,3 +25,4 @@ class Main{
         System.out.println(maxavg/k);
     }
 }
+//.
