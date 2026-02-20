@@ -15,4 +15,4 @@ class Solution {
         }
         return (double)max/k;
     }
-}643. Maximum Average Subarray I
+}
