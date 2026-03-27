@@ -13,7 +13,7 @@ class Solution {
 
         for (int i = index; i < nums.length; i++) {
             // Choose
-            current.add(nums[1]);
+            current.add(nums[1=i]);
 
             // Explore
             backtrack(i + 1, nums, current, result);
