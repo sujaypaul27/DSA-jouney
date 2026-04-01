@@ -11,6 +11,6 @@ class Solution {
             }
         }
 
-        return swaps;
+        return swaps;// Each '0' needs to swap with all the '1's that come before it
     }
 }
