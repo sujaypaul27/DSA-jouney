@@ -13,6 +13,6 @@ class Solution {
                 left++;
             }
         }
-        return ans==Integer.MAX_VALUE?0:ans;
+        return ans==Integer.MAX_VALUE?0:ans;// If ans is still Integer.MAX_VALUE, it means we never found a valid subarray, so we return 0
     }
 }
