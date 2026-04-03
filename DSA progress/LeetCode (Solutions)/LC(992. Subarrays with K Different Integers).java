@@ -23,5 +23,5 @@ class Solution {
             count+=right-left+1;
         }
         return count;
-        }
+        }// This function calculates the number of subarrays with at most k distinct integers. It uses a sliding window approach, where we expand the right pointer to include new elements and shrink the left pointer when we exceed k distinct integers. The count is updated by adding the number of valid subarrays that can be formed with the current right pointer.
 }
