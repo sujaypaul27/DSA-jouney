@@ -13,6 +13,6 @@ class Solution {
             res[r]=res[r]*rp;
             rp*=nums[r];
         }
-        return res;
+        return res;//TC:O(n) SC:O(1) ignoring output array
     }
 }
