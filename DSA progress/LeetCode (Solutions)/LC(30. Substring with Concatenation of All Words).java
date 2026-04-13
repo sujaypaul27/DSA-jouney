@@ -48,6 +48,6 @@ class Solution {
             }
         }
         
-        return result;
+        return result;// Return the list of starting indices
     }
 }
