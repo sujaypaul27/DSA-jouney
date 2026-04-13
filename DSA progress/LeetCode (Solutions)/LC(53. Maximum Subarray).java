@@ -9,5 +9,5 @@ public class LC(53. Maximum Subarray) {
             if(currentSum<0)
                 currentSum=0;//if sum is negative then we can ignore that part and start from next element
         }
-        return maxSum;
+        return maxSum;// Return the maximum sum of a contiguous subarray
 }
