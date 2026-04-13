@@ -1,5 +1,5 @@
 class Solution {
-    private boolean isPalindrome(String s,int left,int right){
+    private boolean isPalindrome(String s,int left,int right){// Helper function to check if a substring is a palindrome
         
         while(left<right)
         {
@@ -20,11 +20,11 @@ class Solution {
         {
             if(s.charAt(left)!=s.charAt(right))
             {
-                return isPalindrome(s,left+1,right)||isPalindrome(s,left,right-1);
+                return isPalindrome(s,left+1,right)||isPalindrome(s,left,right-1);// If the characters at left and right pointers are not equal, we have two options:
             }
             left++;
             right--;
         }
-        return true;
+        return true;// If we reach here, it means the string is already a palindrome
     }
 }
