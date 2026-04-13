@@ -19,7 +19,7 @@ class Solution {
                 int temp = nums[mid];
                 nums[mid] = nums[high];
                 nums[high] = temp;
-                high--;
+                high--;// Don't increment mid here because we need to check the swapped element
             }
         }
     }
