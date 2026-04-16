@@ -22,6 +22,6 @@ class Solution {
             res[i++] = num;//   
         }
         
-        return res;
+        return res;//returning the result array
 }
 }
