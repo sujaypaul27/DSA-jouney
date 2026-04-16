@@ -19,7 +19,7 @@ class Solution {
         int i = 0;
         int[] res = new int[set.size()];
         for(int num : set) {
-            res[i++] = num;
+            res[i++] = num;//   
         }
         
         return res;
