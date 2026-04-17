@@ -20,6 +20,6 @@ class Solution {
            
 
         }
-        return left;
+        return left;//if target is not found, left will be the position where it can be inserted
     }
 }
