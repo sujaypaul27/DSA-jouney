@@ -15,7 +15,7 @@ class Solution {
                 left=mid+1;
             }else
             {
-                right=mid-1;
+                right=mid-1;//if target is less than mid, we can ignore the right half
             }
            
 
