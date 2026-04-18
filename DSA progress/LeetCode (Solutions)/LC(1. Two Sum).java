@@ -18,8 +18,8 @@ class Solution {
                 left++;
                 
             }
-            count=right-left+1;
-            max=Math.max(max,count);
+            count=right-left+1;//update the count of the current substring without repeating characters
+            max=Math.max(max,count);//update the maximum length of substring without repeating characters
         }
         return max;//return the maximum length of substring without repeating characters
     }
