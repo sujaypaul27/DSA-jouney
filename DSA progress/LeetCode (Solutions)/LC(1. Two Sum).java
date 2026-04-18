@@ -21,6 +21,6 @@ class Solution {
             count=right-left+1;
             max=Math.max(max,count);
         }
-        return max;
+        return max;//return the maximum length of substring without repeating characters
     }
 }
