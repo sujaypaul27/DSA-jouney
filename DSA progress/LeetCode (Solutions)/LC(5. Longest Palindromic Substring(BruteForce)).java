@@ -30,4 +30,4 @@ class Solution {
         }
         return res;
     }
-}
+}//Time complexity: O(n^3) because we are checking all the substrings and for each substring we are checking whether it is palindrome or not which takes O(n) time.
