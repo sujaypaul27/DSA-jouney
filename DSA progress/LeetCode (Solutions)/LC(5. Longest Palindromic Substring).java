@@ -24,4 +24,4 @@ class Solution {
         }
         return s.substring(start,end+1);//since it takes from i to i-1 +1 is added
     }
-}
+}//Time complexity: O(n^2) because we are checking all the substrings and for each substring we are checking whether it is palindrome or not which takes O(n) time.
