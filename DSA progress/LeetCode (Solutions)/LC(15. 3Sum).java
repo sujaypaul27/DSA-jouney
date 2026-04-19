@@ -29,4 +29,4 @@ class Solution {
         }
         return result;// return the result
     }
-}
+}// Time complexity: O(n^2) because we are using two nested loops to find the triplets. The outer loop runs n times and the inner loop runs n times in the worst case.
