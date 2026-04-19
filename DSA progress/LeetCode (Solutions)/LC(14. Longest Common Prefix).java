@@ -18,4 +18,4 @@ class Solution {
         
         return prefix;
     }
-}
+}//Time complexity: O(S) where S is the sum of all characters in all strings in the array. In the worst case, all strings are the same and we have to compare each character of the first string with every other string.
