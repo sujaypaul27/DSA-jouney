@@ -28,4 +28,4 @@ class Solution {
      }
      return -1;// if we reach here, it means the target is not present in the array
     }
-}
+}// Time complexity: O(log n) because we are using binary search to find the target in the rotated sorted array. The while loop runs log n times in the worst case.
