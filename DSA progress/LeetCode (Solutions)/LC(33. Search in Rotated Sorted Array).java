@@ -26,6 +26,6 @@ class Solution {
             }
         }
      }
-     return -1;
+     return -1;// if we reach here, it means the target is not present in the array
     }
 }
