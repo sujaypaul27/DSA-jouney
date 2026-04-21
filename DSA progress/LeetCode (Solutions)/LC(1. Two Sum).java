@@ -24,4 +24,3 @@ class Solution {
         return max;//return the maximum length of substring without repeating characters
     }
 }
-.
