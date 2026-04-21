@@ -23,4 +23,4 @@ class Solution {
         }
         return max;//return the maximum length of substring without repeating characters
     }
-}
+}//Time complexity: O(n) because we are traversing the string once and the while loop will run at most n times in total. The space complexity is O(min(m,n)) where m is the size of the character set and n is the length of the string, because in the worst case we may have to store all characters in the map.
