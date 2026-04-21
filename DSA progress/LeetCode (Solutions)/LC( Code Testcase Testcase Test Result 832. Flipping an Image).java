@@ -18,4 +18,4 @@ class Solution {
 
         return image;
     }
-}
+}// Time complexity: O(n^2) because we are iterating through each element of the image once. The space complexity is O(1) because we are modifying the image in place without using any additional data structures.
