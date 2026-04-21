@@ -28,4 +28,4 @@ class Solution {
 
         return true;
     }
-}//
+}// Time complexity: O(1) because the board size is fixed (9x9), so we are performing a constant number of operations. The space complexity is also O(1) because we are using fixed-size boolean arrays to track the presence of numbers in rows, columns, and boxes.
