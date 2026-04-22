@@ -25,6 +25,6 @@ class Solution {
             left++;
             right--;
         }
-        return true;
+        return true;// If we reach here, it means the string is already a palindrome without any removals.
     }
 }
