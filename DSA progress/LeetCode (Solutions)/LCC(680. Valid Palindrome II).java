@@ -27,4 +27,4 @@ class Solution {
         }
         return true;
     }
-}
+}// Time complexity: O(n) in the worst case, where n is the length of the string. This happens when we have to check both possibilities of removing a character. The space complexity is O(1) since we are using only a constant amount of extra space for the pointers and the helper function.
