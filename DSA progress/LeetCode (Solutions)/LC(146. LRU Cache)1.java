@@ -65,4 +65,4 @@ class LRUCache {
             map.remove(lru.key);// remove from map as well
         }
     }
-}
+}// Time complexity: O(1) for both get and put operations due to the use of HashMap and Doubly Linked List.
