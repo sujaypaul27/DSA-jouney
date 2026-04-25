@@ -62,7 +62,7 @@ class LRUCache {
         if (map.size() > capacity) {
             Node lru = tail.prev;   // least recently used
             remove(lru);
-            map.remove(lru.key);
+            map.remove(lru.key);// remove from map as well
         }
     }
 }
