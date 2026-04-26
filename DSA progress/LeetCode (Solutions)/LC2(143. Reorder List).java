@@ -44,5 +44,5 @@
             first = temp1;
             second = temp2;
         }
-    }
+    }// Time: O(n) - we traverse the list a few times, but it's linear overall
 }
