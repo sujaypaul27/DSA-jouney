@@ -38,10 +38,10 @@
             ListNode temp1 = first.next;
             ListNode temp2 = second.next;
 
-            first.next = second;
+            first.next = second;// link first to second
             second.next = temp1;
 
-            first = temp1;
+            first = temp1;// move first forward
             second = temp2;
         }
     }// Time: O(n) - we traverse the list a few times, but it's linear overall
