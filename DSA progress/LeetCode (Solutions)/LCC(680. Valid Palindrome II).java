@@ -14,7 +14,7 @@ class Solution {
     }
     public boolean validPalindrome(String s) {
         int n=s.length();
-        int left=-0;
+        int left=-0;// start from the beginning of the string
         int right=n-1;
         while(left<right)
         {
