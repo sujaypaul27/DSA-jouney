@@ -35,7 +35,7 @@
         second = prev;
 
         while (second != null) {
-            ListNode temp1 = first.next;
+            ListNode temp1 = first.next;// store first's next
             ListNode temp2 = second.next;
 
             first.next = second;// link first to second
