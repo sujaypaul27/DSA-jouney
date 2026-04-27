@@ -39,7 +39,7 @@
             ListNode temp2 = second.next;
 
             first.next = second;// link first to second
-            second.next = temp1;
+            second.next = temp1;// link second to first's next
 
             first = temp1;// move first forward
             second = temp2;
