@@ -31,7 +31,7 @@ class Solution {
             }
             else {// If the value is greater than z, we need to decrease the value by moving the right pointer to the left
                 y--;// Move the right pointer to the left to decrease the value
-            }
+            }// Time complexity: O(n) in the worst case, where n is the maximum value of x and y (in this case, 1000). This is because in the worst case, we might have to check all pairs (x, y) from (1, 1000) to (1000, 1). The space complexity is O(1) for the pointers and O(k) for the result list, where k is the number of valid pairs found.
         }
         
         return result;// Return the list of valid pairs (x, y) that satisfy f(x, y) == z
