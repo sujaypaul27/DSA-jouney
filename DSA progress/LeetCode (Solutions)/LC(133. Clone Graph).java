@@ -36,9 +36,9 @@ class Solution {
 
         // clone neighbors
         for (Node nei : node.neighbors) {
-            clone.neighbors.add(cloneGraph(nei));
+            clone.neighbors.add(cloneGraph(nei));// Recursively clone the neighbors and add them to the clone's neighbors list
         }
 
-        return clone;
+        return clone;// Return the cloned node, which is the entry point to the cloned graph
     }
 }
