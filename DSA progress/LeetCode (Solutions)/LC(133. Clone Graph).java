@@ -41,4 +41,4 @@ class Solution {
 
         return clone;// Return the cloned node, which is the entry point to the cloned graph
     }
-}
+}// Time complexity: O(N + M), where N is the number of nodes and M is the number of edges in the graph. This is because we visit each node and edge once during the cloning process. The space complexity is O(N) for the map that stores the cloned nodes, and O(N) for the recursion stack in the worst case (if the graph is a linear chain).
