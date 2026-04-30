@@ -16,13 +16,13 @@ class Solution {
 
         for (int i = n - 1; i >= 0; i--) {
             if (A[high] > b[i][0]) {
-                res[b[i][1]] = A[high];//
+                res[b[i][1]] = A[high];
                 high--;
             } else {// 
                 res[b[i][1]] = A[low];
                 low++;// low++;
             }
-        }
+        }//
 
         return res;// return res;
     }
