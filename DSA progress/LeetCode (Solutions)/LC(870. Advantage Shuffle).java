@@ -26,4 +26,4 @@ class Solution {
 
         return res;// return res;
     }
-}
+}// Time complexity: O(N log N) due to the sorting of arrays A and B. The rest of the operations are linear, O(N). The space complexity is O(N) for the result array and the auxiliary array used to store values and indices of B.
