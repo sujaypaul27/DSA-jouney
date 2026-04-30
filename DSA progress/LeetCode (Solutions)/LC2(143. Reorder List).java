@@ -45,4 +45,4 @@
             second = temp2;
         }
     }// Time: O(n) - we traverse the list a few times, but it's linear overall
-}
+}// Space: O(1) - we are modifying the list in place and using only a constant amount of extra space for pointers
