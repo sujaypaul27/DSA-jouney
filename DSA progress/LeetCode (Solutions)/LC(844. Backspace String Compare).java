@@ -49,6 +49,6 @@ class Solution {
             j--;
         }
 
-        return true;
+        return true;// If we exit the loop without returning false, it means the strings are equal after processing backspaces
     }
 }
