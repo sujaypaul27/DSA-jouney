@@ -50,5 +50,5 @@ class Solution {
         }
 
         return true;// If we exit the loop without returning false, it means the strings are equal after processing backspaces
-    }
+    }// Time complexity: O(N + M), where N and M are the lengths of strings s and t respectively. We traverse both strings once. The space complexity is O(1) since we are using only a constant amount of extra space for the pointers and counters.
 }
