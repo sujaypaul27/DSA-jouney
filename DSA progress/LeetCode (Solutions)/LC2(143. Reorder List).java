@@ -32,7 +32,7 @@
 
         // 3. Merge two halves
         ListNode first = head;// start of first half
-        second = prev;
+        second = prev;// start of reversed second half
 
         while (second != null) {
             ListNode temp1 = first.next;// store first's next
