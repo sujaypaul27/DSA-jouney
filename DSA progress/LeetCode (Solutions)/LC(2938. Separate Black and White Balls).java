@@ -13,4 +13,4 @@ class Solution {
 
         return swaps;// Each '0' needs to swap with all the '1's that come before it
     }
-}
+}// Time: O(n) - we traverse the string once
