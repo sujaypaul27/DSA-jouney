@@ -10,7 +10,7 @@ class Solution {
             left++;
             right--;
         }
-        return true;
+        return true;// If we reach here, it means the substring is a palindrome.
     }
     public boolean validPalindrome(String s) {
         int n=s.length();
