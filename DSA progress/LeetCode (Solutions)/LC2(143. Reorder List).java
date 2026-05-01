@@ -31,7 +31,7 @@
         }
 
         // 3. Merge two halves
-        ListNode first = head;
+        ListNode first = head;// start of first half
         second = prev;
 
         while (second != null) {
