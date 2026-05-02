@@ -15,6 +15,6 @@ class Solution {
             }
         }
 
-        return total >= 0 ? start : -1;
+        return total >= 0 ? start : -1;// Time complexity: O(n) where n is the number of gas stations. We traverse the arrays once. Space complexity: O(1) since we are using only a constant amount of extra space for the variables.
     }
 }
