@@ -28,4 +28,4 @@ public class Solution {
 
         return false;                  // no cycle
     }
-}
+}// Time complexity: O(n) where n is the number of nodes in the linked list. In the worst case, we may need to traverse the entire list once. Space complexity: O(1) since we are using only a constant amount of extra space for the two pointers.
