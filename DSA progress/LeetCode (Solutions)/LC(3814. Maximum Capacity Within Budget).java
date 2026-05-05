@@ -46,7 +46,7 @@ class Solution {
                 } else {
                     right = mid - 1;// Move the right pointer to the left to find a machine with a lower cost that can be paired with the current machine (arr[j])
                 }// If the cost of the machine at index mid is greater than the remaining budget, we need to look for a machine with a lower cost, so we move the right pointer to the left
-            }
+            }// After the binary search, idx will contain the index of the machine that can be paired with the current machine (arr[j]) without exceeding the remaining budget. If idx is -1, it means no such machine was found.
 
             if (idx != -1) {
                 ans = Math.max(ans, arr[j][1] + prefixMax[idx]);// If we found a valid machine to pair with the current machine (arr[j]), we update the answer with the maximum capacity of the current machine (arr[j][1]) plus the maximum capacity of the machine at index idx (prefixMax[idx]) that can be paired with it without exceeding the budget
