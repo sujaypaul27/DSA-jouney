@@ -54,5 +54,5 @@ class Solution {
         }// After iterating through all machines and their possible pairings, we return the maximum capacity that can be achieved within the given budget
 
         return ans;// Return the maximum capacity that can be achieved within the given budget
-    }
+    }// Time complexity: O(n log n) due to sorting the 2D array and performing binary search for each machine. Space complexity: O(n) for the 2D array and the prefix maximum array.
 }// Time complexity: O(n log n) due to sorting the 2D array and performing binary search for each machine. Space complexity: O(n) for the 2D array and the prefix maximum array.
