@@ -45,7 +45,7 @@ class Solution {
                     left = mid + 1;// Move the left pointer to the right to find a machine with a higher cost that can still be paired with the current machine (arr[j])
                 } else {
                     right = mid - 1;// Move the right pointer to the left to find a machine with a lower cost that can be paired with the current machine (arr[j])
-                }
+                }// If the cost of the machine at index mid is greater than the remaining budget, we need to look for a machine with a lower cost, so we move the right pointer to the left
             }
 
             if (idx != -1) {
