@@ -23,5 +23,5 @@ class Solution {
         }
         
         return res;//returning the result array
-}
+}// Time complexity: O(n1 * n2) due to the nested loops comparing each element of nums1 with each element of nums2. Space complexity: O(min(n1, n2)) for the HashSet storing the unique intersection elements, where n1 and n2 are the lengths of nums1 and nums2 respectively.
 }
