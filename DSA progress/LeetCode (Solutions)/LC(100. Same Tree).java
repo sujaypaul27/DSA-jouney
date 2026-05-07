@@ -32,6 +32,6 @@ class Solution {
         boolean leftSame = isSameTree(p.left, q.left);
         boolean rightSame = isSameTree(p.right, q.right);
 
-        return leftSame && rightSame;
+        return leftSame && rightSame;//returning true if both left and right subtrees are the same
     }
 }// Time complexity: O(n) where n is the number of nodes in the trees, as we need to compare each node. Space complexity: O(h) where h is the height of the tree, due to the recursive call stack. In the worst case (skewed tree), this can be O(n).
