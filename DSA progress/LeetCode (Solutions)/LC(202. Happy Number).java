@@ -21,5 +21,5 @@ class Solution {
         } else{
             return true;//if n is 1, it means we have found a happy number
         }
-    }//..
+    }//....
 }// Time complexity: O(log n) where n is the input number, as we are calculating the sum of squares of digits which takes O(log n) time. Space complexity: O(log n) in the worst case due to the HashSet storing the numbers we have seen, but it can be less if we find a happy number early.
