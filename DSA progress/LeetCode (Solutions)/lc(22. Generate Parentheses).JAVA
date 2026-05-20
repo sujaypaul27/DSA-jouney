@@ -28,7 +28,7 @@ class Solution {
         if (close < open) {
             current.append(')');
             backtrack(ans, current, open, close + 1, n);
-            current.deleteCharAt(current.length() - 1);
+            current.deleteCharAt(current.length() - 1);// Backtrack to explore other possibilities
         }
     }
 }
