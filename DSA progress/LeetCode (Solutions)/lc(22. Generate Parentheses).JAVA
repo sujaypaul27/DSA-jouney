@@ -31,4 +31,4 @@ class Solution {
             current.deleteCharAt(current.length() - 1);// Backtrack to explore other possibilities
         }// Backtracking function to generate valid parentheses combinations
     }// Backtracking function to generate valid parentheses combinations
-}//import java.util.*;..//..//..//..//..//..//..//..
+}//import java.util.*;..//..//..//..//..//..//..//..//
