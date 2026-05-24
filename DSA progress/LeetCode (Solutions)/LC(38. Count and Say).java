@@ -26,4 +26,4 @@ class Solution {
 
         return result;// Generate the next term in the sequence by counting consecutive characters
     }
-}
+}// Generate the next term in the sequence by counting consecutive characters
