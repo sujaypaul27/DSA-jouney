@@ -24,6 +24,6 @@ class Solution {
             result = sb.toString();
         }
 
-        return result;
+        return result;// Generate the next term in the sequence by counting consecutive characters
     }
 }
