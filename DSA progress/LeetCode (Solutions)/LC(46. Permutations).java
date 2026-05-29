@@ -30,5 +30,5 @@ class Solution {
             current.remove(current.size() - 1);
             used[i] = false;
         }
-    }// Backtracking approach to generate all permutations of the input array
+    }// Backtracking approach to generate all permutations of the input array..
 }//`    
