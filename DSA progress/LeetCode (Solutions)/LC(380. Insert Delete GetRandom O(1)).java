@@ -45,4 +45,4 @@ class RandomizedSet {
  * boolean param_1 = obj.insert(val);
  * boolean param_2 = obj.remove(val);
  * int param_3 = obj.getRandom();
- */
+ *////
